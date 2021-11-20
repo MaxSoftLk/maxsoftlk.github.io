@@ -1100,11 +1100,11 @@ section {
 }
 
 .portfolio-details .portfolio-info {
-  padding: 30px;
+  padding: 0;
   box-shadow: 0px 0 30px rgba(21, 21, 21, 0.08);
 }
 
-.portfolio-details .portfolio-info h3 {
+.portfolio-details .portfolio-info h2 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1339,7 +1339,7 @@ section {
   margin-bottom: 20px;
   overflow: hidden;
   border-radius: 5px;
-  background: #fff;
+  background: rgb(32, 30, 30);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1391,21 +1391,21 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 18px;
-  color: #151515;
+  color: #fff;
 }
 
 .team .member .member-info span {
   display: block;
   font-size: 13px;
   font-weight: 400;
-  color: #585858;
+  color: #fff;
 }
 
 .team .member .member-info p {
   font-style: italic;
   font-size: 14px;
   line-height: 26px;
-  color: #777777;
+  color: #fff;
 }
 
 .team .member:hover .social {
@@ -1566,14 +1566,17 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: whitesmoke;
+  background: #151515;
   min-height: 40px;
   margin-top: 74px;
 }
 
 .breadcrumbs h2 {
-  font-size: 28px;
-  font-weight: 400;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
 }
 
 .breadcrumbs ol {
